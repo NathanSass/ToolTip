@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Triangle">
+        <attr name="triangleOrientation" format="enum">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="2"/>
+        </attr>
+        <attr name="triangleColor" format="color"/>
+        <attr name="triangleStrokeColor" format="color"/>
+        <attr name="triangleStrokeWidth" format="dimension"/>
+        <attr name="triangleTwoSidedStroke" format="boolean"/>
+    </declare-styleable>
+</resources>
